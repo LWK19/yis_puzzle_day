@@ -158,6 +158,10 @@ function getTeam(tem){
     location.href = 'main';
 }
 
+function setTeam(tem){
+    team=getCookie("team");
+}
+
 function post(meth,team,qn,ans){
     let url = "https://script.google.com/macros/s/AKfycbzObm08dGkR7HgU9-LV5esgc_5csgoS9RpRD1Avpbgqc4h5jaHjfl_n3zM_A-GiHEV1/exec?callback=loadData";
             
