@@ -153,7 +153,7 @@ function setQuestion(num,bx){
 }
 
 function getTeam(tem){
-    if(tem=""){
+    if(tem==""){
         alert("Please enter a number.");
     }else{
         team=tem;
