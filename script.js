@@ -155,6 +155,7 @@ function setQuestion(num,bx){
 function getTeam(tem){
     team=tem;
     document.cookie = "team=" + tem + ";max-age=7200;path=/";
+    location.href = 'main';
 }
 
 function post(meth,team,qn,ans){
