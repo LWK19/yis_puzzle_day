@@ -153,9 +153,14 @@ function setQuestion(num,bx){
 }
 
 function getTeam(tem){
-    team=tem;
-    document.cookie = "team=" + tem + ";max-age=7200;path=/";
-    location.href = 'main';
+    if(tem=""){
+        alert("Please enter a number.");
+    }else{
+        team=tem;
+        document.cookie = "team=" + tem + ";max-age=7200;path=/";
+        location.href = 'main';
+    }
+    
 }
 
 function setTeam(tem){
