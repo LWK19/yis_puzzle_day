@@ -1,5 +1,6 @@
  <html>
      <head>
+        <title>YIS Puzzle Day</title>
          <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link
@@ -14,16 +15,15 @@
     <body style="margin:0px">
         <div id="main-title">
             <!-- Welcome Team <?php echo $_POST["team"]; ?> -->
-            
+            <div id="welcome">
             <img src="yis.png" style="height:50px" align="right">
         </div>
         <div style="padding:20px;justify-content:center;display:flex" id="buff"></div>
 
         
         <script type="text/javascript">
-            document.getElementById("main-title").innerHTML = "Welcome Team " + getCookie("team");
-            //var MyJSStringVar = "<?php Print($_POST["team"]); ?>";
-            //getTeam(MyJSStringVar);
+            document.getElementById("welcome").innerHTML = "Welcome Team " + getCookie("team");
+            setTeam();
         </script>
         
 
