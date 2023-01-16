@@ -11,10 +11,10 @@
         <div style="display:flex;justify-content:center"><img src="yis.png" style="height:120px;display:inline-block;padding:30px" ></div>
         
         <div class='team-title'>YIS Puzzle Day</div>
-        <form id="form" action="main.html" method="post" class='team-form'>
+        <form id="form" class='team-form'>
             Enter Team Number:
             <input name="team" id="team">
-            <input type="submit" id="subm" onClick="getTeam(document.getElementById('team').value)">
+            <input type="submit" id="subm" onClick="getTeam(document.getElementById('team').value);location.href = 'instructions'">
         </form>
         
         <!--
