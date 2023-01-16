@@ -42,8 +42,10 @@
     font:3rem 'Josefin Sans', sans-serif;
     padding:30px;
     color:white;
-    
+    display:flex;
+    justify-content:space-between;
 }
+
 
 .question {
     vertical-align:middle;
